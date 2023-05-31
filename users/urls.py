@@ -14,6 +14,10 @@ urlpatterns = [
     ),
     name='login'),
 
+    # Página de cadastro
+    path('register/', views.register, name='register'),
+
     # Página de logout
     path('logout/', views.logout_view, name='logout'),
+
 ]
